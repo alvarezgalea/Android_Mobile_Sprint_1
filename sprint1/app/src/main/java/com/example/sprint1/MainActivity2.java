@@ -34,8 +34,8 @@ public class MainActivity2 extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(),MainActivity3.class);
                 intent.putExtra("title",textProduct1.getText().toString());
-                intent.putExtra("description","Description Product 1");
-                intent.putExtra("imgCode",R.drawable.prodcuto1);
+                intent.putExtra("description","Delicioso alimento para Gatos Balanceado para tu Mascota.");
+                intent.putExtra("imgCode",R.drawable.producto1_1);
                 startActivity(intent);
             }
         });
@@ -46,8 +46,8 @@ public class MainActivity2 extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(),MainActivity3.class);
                 intent.putExtra("title",textProduct2.getText().toString());
-                intent.putExtra("description","Description Product 2");
-                intent.putExtra("imgCode",R.drawable.producto2);
+                intent.putExtra("description","Alimento para una sana alimentación para los Perros. De Carne y Pollo.");
+                intent.putExtra("imgCode",R.drawable.producto2_2);
                 startActivity(intent);
             }
         });
@@ -58,8 +58,8 @@ public class MainActivity2 extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(),MainActivity3.class);
                 intent.putExtra("title",textProduct3.getText().toString());
-                intent.putExtra("description","Description Product 3");
-                intent.putExtra("imgCode",R.drawable.producto3);
+                intent.putExtra("description","Correas para Perros y Gatos con sistema de seguridad, Juguetes y Mas..");
+                intent.putExtra("imgCode",R.drawable.producto4);
                 startActivity(intent);
             }
         });
